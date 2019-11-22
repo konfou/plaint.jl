@@ -1,0 +1,21 @@
+options:
+  tmax: 1e5
+  step: 0.01
+  ever: 1e2
+system:
+  cite: 'Baluev (2011)'
+  star_name: 'GJ 876'
+  star_mass: 0.334
+  planets:
+    - id: d
+      mass: 0.0218
+      orbital_elements: [0.02110625, 0.1780, 56.1, 0, 224.00, 133.60]
+    - id: c
+      mass: 0.7470
+      orbital_elements: [0.13172700, 0.2498, 56.1, 0, 252.08, 179.01]
+    - id: b
+      mass: 2.3370
+      orbital_elements: [0.21101800, 0.0328, 56.1, 0, 248.70,  92.43]
+    - id: e
+      mass: 0.0482
+      orbital_elements: [0.33961000, 0.0008, 56.1, 0, 181.00, 118.30]

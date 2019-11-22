@@ -1,0 +1,18 @@
+options:
+  tmax: 1e5
+  step: 0.05
+  ever: 1e2
+system:
+  cite: 'arxiv:1802.09557'
+  star_name: 'GJ 9827'
+  star_mass: 0.65
+  planets:
+    - id: b
+      mass: 0.0117673860
+      orbital_elements: [0.0210, 0.01, 88.330, NA, NA, NA]
+    - id: c
+      mass: 0.0046251492
+      orbital_elements: [0.0439, 0.01, 89.070, NA, NA, NA]
+    - id: d
+      mass: 0.0074883368
+      orbital_elements: [0.0625, 0.01, 87.703, NA, NA, NA]

@@ -1,0 +1,16 @@
+---
+options:
+  tmax: 1e5
+  step: 0.05
+  ever: 1e2
+system:
+  cite: 'arXiv:1306.0687'
+  star_name: 'HD 82943'
+  star_mass: 1.13
+  planets:
+  - id: b
+    mass: 4.78
+    orbital_elements: [ 0.7423, 0.425, 19.4, 0, 133, 256 ]
+  - id: c
+    mass: 4.80
+    orbital_elements: [ 1.1866, 0.203, 19.4, 0, 107, 333 ]

@@ -1,0 +1,21 @@
+options:
+  tmax: 1e5
+  step: 0.01
+  ever: 1e2
+system:
+  cite: 'Millholland (2018)'
+  star_name: 'GJ 876'
+  star_mass: 0.334
+  planets:
+    - id: d
+      mass: 0.023755018
+      orbital_elements: [0.021838, 0.0570, 53.06, 0, 116.00, 104.00]
+    - id: c
+      mass: 0.835673220
+      orbital_elements: [0.136044, 0.2571, 53.06, 0,  51.09, 292.55]
+    - id: b
+      mass: 2.659303500
+      orbital_elements: [0.218627, 0.0325, 53.06, 0,  35.50, 340.60]
+    - id: e
+      mass: 0.049712488
+      orbital_elements: [0.350100, 0.0300, 53.06, 0, 164.10,  50.30]

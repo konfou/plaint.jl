@@ -1,0 +1,19 @@
+---
+options:
+  tmax: 1e6
+  step: 0.05
+  ever: 1e3
+system:
+  cite: '0912.2599'
+  star_name: '61 Vir'
+  star_mass: 0.95
+  planets:
+  - id: b
+    mass: 0.0160
+    orbital_elements: [0.0502, 0.12, 90.0, 0, 105, 166]
+  - id: c
+    mass: 0.0576
+    orbital_elements: [0.2175, 0.14, 90.0, 0, 341, 177]
+  - id: d
+    mass: 0.0721
+    orbital_elements: [0.4760, 0.35, 90.0, 0, 314,  56]

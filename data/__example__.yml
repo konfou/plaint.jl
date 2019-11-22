@@ -1,0 +1,22 @@
+---
+options:
+  tmax: 1e6
+  step: 0.1
+  ever: 1e3
+system:
+  cite: Spock et al
+  star_name: Nevasi
+  star_mass: 0.84
+  planets:
+  - id: Ket-Cheleb
+    mass: 0.001
+    orbital_elements: [ 0.224, 0.04, 0.42, 0.0, 0.0, 0.0 ]
+  - id: Vulcan
+    mass: 0.004
+    orbital_elements: [ 0.561, 0.02, 0.42, 0.0, 0.0, 0.0 ]
+  - id: T'Khut
+    mass: 0.004
+    orbital_elements: [ 0.562, 0.02, 0.42, 0.0, 0.0, 0.0 ]
+  - id: Delta Vega
+    mass: 0.1
+    orbital_elements: [ 3.142, 0.04, 0.42, 0.0, 0.0, 0.0 ]

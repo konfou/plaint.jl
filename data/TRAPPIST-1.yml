@@ -1,0 +1,30 @@
+options:
+  tmax: 1e6
+  step: 0.05
+  ever: 1e3
+system:
+  cite: 'eso1805a'
+  star_name: TRAPPIST-1
+  star_mass: 0.08
+  planets:
+    - id: b
+      mass: 0.0031998481
+      orbital_elements: [0.01154775, 0.00622, 90.0, 0, 336.86, 203.12]
+    - id: c
+      mass: 0.0036371922
+      orbital_elements: [0.01581512, 0.00654, 90.0, 0, 282.45,  69.86]
+    - id: d
+      mass: 0.0009344689
+      orbital_elements: [0.02228038, 0.00837, 90.0, 0, 351.27, 173.92]
+    - id: e
+      mass: 0.0024289899
+      orbital_elements: [0.02928285, 0.00510, 90.0, 0, 108.37, 347.95]
+    - id: f
+      mass: 0.0029387002
+      orbital_elements: [0.03853361, 0.01007, 90.0, 0, 368.81, 113.61]
+    - id: g
+      mass: 0.0036120213
+      orbital_elements: [0.04687692, 0.00208, 90.0, 0, 191.34, 265.08]
+    - id: h
+      mass: 0.0010414452
+      orbital_elements: [0.06193488, 0.00567, 90.0, 0, 338.92, 269.72]

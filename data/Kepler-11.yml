@@ -1,0 +1,27 @@
+options:
+  tmax: 1e5
+  step: 0.05
+  ever: 1e2
+system:
+  cite: 'arXiv:1802.01702'
+  star_name: 'Kepler-11'
+  star_mass: 0.961
+  planets:
+    - id: b
+      mass: 0.005978084
+      orbital_elements: [0.091, 0.045, 0.12, 0,  45.0, 0]
+    - id: c
+      mass: 0.009124444
+      orbital_elements: [0.107, 0.026, 0.07, 0,  51.3, 0]
+    - id: d
+      mass: 0.022968428
+      orbital_elements: [0.155, 0.004, 0.15, 0, 146.3, 0]
+    - id: e
+      mass: 0.025170880
+      orbital_elements: [0.195, 0.012, 0.63, 0,  90.0, 0]
+    - id: f
+      mass: 0.006292720
+      orbital_elements: [0.250, 0.013, 0.05, 0,  90.0, 0]
+    - id: g
+      mass: 0.062927200
+      orbital_elements: [0.466, 0.100, 0.35, 0,  90.0, 0]

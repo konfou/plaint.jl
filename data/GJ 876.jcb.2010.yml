@@ -1,0 +1,21 @@
+options:
+  tmax: 1e4
+  step: 0.01
+  ever: 10
+system:
+  cite: 'Rivera et al. (2010)'
+  star_name: 'GJ 876'
+  star_mass: 0.32
+  planets:
+    - id: d
+      mass: 0.0214
+      orbital_elements: [0.02080665, 0.20700, 59.0, 0, 234.00, 355.00]
+    - id: c
+      mass: 0.7142
+      orbital_elements: [0.12959000, 0.25591, 59.0, 0,  48.76, 249.59]
+    - id: b
+      mass: 2.2756
+      orbital_elements: [0.20831700, 0.03240, 59.0, 0,  50.30, 325.70]
+    - id: e
+      mass: 0.0459
+      orbital_elements: [0.33430000, 0.05500, 59.0, 0, 239.00, 335.00]

@@ -1,0 +1,21 @@
+options:
+  tmax: 1e5
+  step: 0.05
+  ever: 1e2
+system:
+  cite: 'arxiv:1308.6462'
+  star_name: 'HR 8799'
+  star_mass: 1.56
+  planets:
+    - id: e
+      mass: 9
+      orbital_elements: [15.4, 0.13, 25, 64, 176, 326]
+    - id: d
+      mass: 9
+      orbital_elements: [25.4, 0.12, 25, 64,  91,  58]
+    - id: c
+      mass: 9
+      orbital_elements: [39.4, 0.05, 25, 64, 151, 148]
+    - id: b
+      mass: 7
+      orbital_elements: [69.1, 0.02, 25, 64,  95, 321]
